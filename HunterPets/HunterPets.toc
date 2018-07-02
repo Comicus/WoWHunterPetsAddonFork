@@ -1,7 +1,7 @@
 ## Interface: 70100
-## Title: [|c52ABD473Alleidun|r]'s Hunter Pets
+## Title: |c52ABD473Moonrunes|r' Hunter Pets Bugfix 
 ## Notes: A set of tools for Hunter Pets
-## Author: Alleidun, Simpy
+## Author: Moonrunes, Alleidun, Simpy
 ## Version: 1.5.34
 ## SavedVariables: HunterPetsGlobal
 ## SavedVariablesPerCharacter: HunterPetsSettings

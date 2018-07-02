@@ -1,6 +1,6 @@
 ## Interface: 70100
-## Title: [|c52ABD473Alleidun|r]'s Hunter Pets UI
-## Author: Alleidun
+## Title: |c52ABD473Moonrunes|r' Hunter Pets UI Bugfix 
+## Author: Moonrunes, Alleidun
 ## Version: 1
 ## LoadOnDemand: 1
 ## Dependencies: HunterPets

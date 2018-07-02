@@ -8,6 +8,9 @@ function HunterPetsOwned_OnLoad()
 	HunterPetsOwned:RegisterEvent("PLAYER_LOGIN");
 	SetPortraitToTexture(HunterPetsOwnedPortrait,"Interface\\Icons\\ability_physical_taunt");
 	HunterPetsOwned.TitleText:SetFormattedText("Stabled Pets Browser");
+	--I believe line 12 was previous commented out. However uncommenting it added functionality.
+	-- Im going to try to comment it out again and remove other instances of it to see what results I produce
+	-- Disabling the function disables the ability to see the stables.
 	HunterPetsOwned:Show()
 end
 

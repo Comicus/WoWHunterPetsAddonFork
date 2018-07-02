@@ -177,7 +177,6 @@
 				</Layers>
 				<Scripts>
 					<OnClick> 
-						PlaySound("igMainMenuOptionCheckBoxOn");
 						ToggleDropDownMenu(1, nil, HunterPetJournalFilterDropDown, "HunterPetJournalFilterButton", 74, 15);
 					</OnClick>	
 				</Scripts>						

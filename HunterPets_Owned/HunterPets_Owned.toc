@@ -1,9 +1,10 @@
 ## Interface: 70100
-## Title: [|c52ABD473Alleidun|r]'s Hunter Pets Owned Frame
-## Author: Alleidun
-## Version: 1
+## Title: |c52ABD473Moonrunes|r' Hunter Pets Owned Frame Bugfix
+## Author: Moonrunes, Alleidun, Simpy
+## Version: 1.1
 ## LoadOnDemand: 1
 ## Dependencies: HunterPets
+
 
 HunterPets_Owned.lua
 HunterPets_Owned.xml
