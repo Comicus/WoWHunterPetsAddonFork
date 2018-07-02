@@ -1,0 +1,14 @@
+## Interface: 70100
+## Title: [|c52ABD473Alleidun|r]'s Hunter Pets UI
+## Author: Alleidun
+## Version: 1
+## LoadOnDemand: 1
+## Dependencies: HunterPets
+
+..\HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0.lua
+
+Filtering.lua
+HunterPets_UI.lua
+HunterPets_UI.xml
+HunterPetLocations.lua
+HunterPetLocations.xml
