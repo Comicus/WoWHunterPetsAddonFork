@@ -1,5 +1,5 @@
 ## Interface: 70100
-## Title: |c52ABD473Moonrunes|r' Hunter Pets Bugfix 
+## Title: |c52ABD473Moonrunes|r' Hunter's Menagerie (HunterPets)
 ## Notes: A set of tools for Hunter Pets
 ## Author: Moonrunes, Alleidun, Simpy
 ## Version: 1.5.34

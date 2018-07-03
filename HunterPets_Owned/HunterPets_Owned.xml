@@ -459,7 +459,7 @@
 
 		</Frames>
 		<Scripts>
-		<!-- The below lines were causing errors when loading into the game>
+		<!-- The below lines were causing errors when loading into the game> -->
 			<!-- <OnShow>
 				PlaySound("igCharacterInfoOpen");
 			</OnShow>
