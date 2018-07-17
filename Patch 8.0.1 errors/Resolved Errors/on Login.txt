@@ -1,0 +1,115 @@
+Date: 2018-07-02 15:45:28
+ID: 1
+Error occured in: Global
+Count: 2
+Message: [string "*:OnShow"] line 1:
+   Usage: PlaySound(soundKitID, optional["SFX","Music","Ambience", "Dialog" or "Master"], [forceNoDuplicates, runFinishCallback])
+Debug:
+   [C]: PlaySound()
+   [string "*:OnShow"]:1:
+      [string "*:OnShow"]:1
+   [C]: Show()
+   ...terface\AddOns\HunterPets_Owned\HunterPets_Owned.lua:14: HunterPetsOwned_OnLoad()
+   [string "*:OnLoad"]:1:
+      [string "*:OnLoad"]:1
+   [C]: LoadAddOn()
+   HunterPets\Core.lua:53:
+      HunterPets\Core.lua:19
+   (tail call): ?
+   [C]: ?
+   [string "safecall Dispatcher[1]"]:9:
+      [string "safecall Dispatcher[1]"]:5
+   (tail call): ?
+   Ace3\AceAddon-3.0\AceAddon-3.0.lua:558: EnableAddon()
+   Ace3\AceAddon-3.0\AceAddon-3.0.lua:651:
+      Ace3\AceAddon-3.0\AceAddon-3.0.lua:636
+   [C]: LoadAddOn()
+   ..\FrameXML\UIParent.lua:429: UIParentLoadAddOn()
+   ..\FrameXML\UIParent.lua:528: TimeManager_LoadUI()
+   ..\FrameXML\UIParent.lua:1114:
+      ..\FrameXML\UIParent.lua:1011
+Locals:
+(*temporary) = "igCharacterInfoOpen"
+
+AddOns:
+  Swatter, v7.6.5736 (TasmanianThylacine)
+  Ace3, v
+  AucAdvanced, v7.6.5736 (TasmanianThylacine)
+  AucFilterBasic, v7.6.5736 (TasmanianThylacine)
+  AucFilterOutlier, v7.6.5736.5459(/embedded)
+  AucMatchUndercut, v7.6.5736.5585(/embedded)
+  AucStatHistogram, v7.6.5736 (TasmanianThylacine)
+  AucStatiLevel, v7.6.5736 (TasmanianThylacine)
+  AucStatPurchased, v7.6.5736 (TasmanianThylacine)
+  AucStatSales, v7.6.5736.5598(/embedded)
+  AucStatSimple, v7.6.5736 (TasmanianThylacine)
+  AucStatStdDev, v7.6.5736 (TasmanianThylacine)
+  AucStatWOWEcon, v7.6.5736.5613(/embedded)
+  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)
+  AucUtilAppraiser, v7.6.5736.5727(/embedded)
+  AucUtilAskPrice, v7.6.5736.5599(/embedded)
+  AucUtilAutoMagic, v7.6.5736.5732(/embedded)
+  AucUtilCompactUI, v7.6.5736.5715(/embedded)
+  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)
+  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)
+  AucUtilItemSuggest, v7.6.5736.5651(/embedded)
+  AucUtilPriceLevel, v7.6.5736.5633(/embedded)
+  AucUtilScanButton, v7.6.5736.5631(/embedded)
+  AucUtilScanFinish, v7.6.5736.5725(/embedded)
+  AucUtilScanProgress, v7.6.5736.4979(/embedded)
+  AucUtilScanStart, v7.6.5736.5725(/embedded)
+  AucUtilSearchUI, v7.6.5736.5731(/embedded)
+  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)
+  AucUtilVendMarkup, v7.6.5736.4828(/embedded)
+  Babylonian, v5.1.DEV.332(/embedded)
+  BagBrother, v
+  Bagnon, v7.3.2
+  Bartender4, v4.7.10
+  BeanCounter, v7.6.5736 (TasmanianThylacine)
+  BulkMail2, v5.0.1
+  Configator, v5.1.DEV.434(/embedded)
+  ConsLegion, v1.28
+  DBMCore, v7.3.31
+  DBMDefaultSkin, v
+  DBMStatusBarTimers, v
+  DebugLib, v5.1.DEV.337(/embedded)
+  DejaCharacterStats, v730rc108
+  DugisGuideViewerZ, v4.431
+  Gatherer, v7.3.1
+  Hekili, v7.3.5.24-39-g8207722
+  HunterPets, v1.5.34
+  HunterPetsOwned, v1.1
+  HunterPetsUI, v1
+  LibAbacus30, v
+  LibDropdown10, v1.0
+  LibExtraTip, v5.12.DEV.435(/embedded)
+  LibGratuity30, vr$Revision: 41183 $
+  LibPeriodicTable31, vv3.3.0.595
+  LibQTip10, v7.3.5.3
+  LibStub, v
+  NPCScan, v7.3.5.13
+  Pawn, v2.2.18
+  Recount, vv7.3.5c
+  SharedMedia, v3.0.7-188
+  SharedMediaAdditionalFonts, v1.0.24
+  SlideBar, v7.6.5736 (TasmanianThylacine)
+  Stubby, v7.6.5736 (TasmanianThylacine)
+  TipHelper, v5.12.DEV.405(/embedded)
+  TomTom, vv70300-1.0.0
+  WIM, v3.7.16
+  WorldQuestTracker, v
+  ZPerl, v5.4.8
+  ZPerlArcaneBar, v
+  ZPerlParty, v
+  ZPerlPartyPet, v
+  ZPerlPlayer, v
+  ZPerlPlayerBuffs, v
+  ZPerlPlayerPet, v
+  ZPerlRaidFrames, v
+  ZPerlRaidHelper, v
+  ZPerlRaidPets, v
+  ZPerlTarget, v
+  ZPerlTargetTarget, v
+  BlizRuntimeLib_enUS v7.3.5.70300 <none>
+  (ck=a16)
+
