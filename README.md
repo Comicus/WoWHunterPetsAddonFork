@@ -20,3 +20,6 @@ Please note there are currently still errors that will occur, but I am working o
  
 Its uploaded to curse as well as here.
 https://wow.curseforge.com/projects/hunterpets-bugfix-fork
+
+Note to any curse users who found your way here
+I know  the patch drops on 7/17/2018 and I will be working to get this updated as soon as possible but there will likely be alot of work to be done.
