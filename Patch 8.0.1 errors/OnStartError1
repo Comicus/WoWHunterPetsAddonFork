@@ -1,0 +1,133 @@
+Date: 2018-07-17 15:17:04
+ID: 11
+Error occured in: Global
+Count: 1
+Message: ...nterface\AddOns\HunterPets_UI\HunterPetLocations.lua line 142:
+   attempt to call global 'GetNumberOfDetailTiles' (a nil value)
+Debug:
+   ...nterface\AddOns\HunterPets_UI\HunterPetLocations.lua:142: HunterPetLocations_OnLoad()
+   [string "*:OnLoad"]:1:
+      [string "*:OnLoad"]:1
+   [C]: LoadAddOn()
+   HunterPets\Core.lua:52:
+      HunterPets\Core.lua:19
+   (tail call): ?
+   [C]: ?
+   [string "safecall Dispatcher[1]"]:9:
+      [string "safecall Dispatcher[1]"]:5
+   (tail call): ?
+   Ace3\AceAddon-3.0\AceAddon-3.0.lua:558: EnableAddon()
+   Ace3\AceAddon-3.0\AceAddon-3.0.lua:651:
+      Ace3\AceAddon-3.0\AceAddon-3.0.lua:636
+   [C]: LoadAddOn()
+   ..\FrameXML\UIParent.lua:445: UIParentLoadAddOn()
+   ..\FrameXML\UIParent.lua:564: TimeManager_LoadUI()
+   ..\FrameXML\UIParent.lua:1187:
+      ..\FrameXML\UIParent.lua:1085
+Locals:
+self = HunterPetLocations {
+ 0 = <userdata>
+ TitleText = HunterPetLocationsTitleText {
+ }
+ portrait = HunterPetLocationsPortrait {
+ }
+ LeftBorder = HunterPetLocationsLeftBorder {
+ }
+ scale = 0.3984375
+ tileSize = 102
+ TopRightCorner = HunterPetLocationsTopRightCorner {
+ }
+ TopLeftCorner = HunterPetLocationsTopLeftCorner {
+ }
+ Bg = HunterPetLocationsBg {
+ }
+ Map = <unnamed> {
+ }
+ TopBorder = HunterPetLocationsTopBorder {
+ }
+ tiles = <table> {
+ }
+ TopTileStreaks = HunterPetLocationsTopTileStreaks {
+ }
+ TitleBg = HunterPetLocationsTitleBg {
+ }
+ BottomBorder = HunterPetLocationsBottomBorder {
+ }
+ points = <table> {
+ }
+ overlay = <table> {
+ }
+ BotRightCorner = HunterPetLocationsBotRightCorner {
+ }
+ Inset = HunterPetLocationsInset {
+ }
+ CloseButton = HunterPetLocationsCloseButton {
+ }
+ BotLeftCorner = HunterPetLocationsBotLeftCorner {
+ }
+ PortraitFrame = HunterPetLocationsPortraitFrame {
+ }
+ OnLoad = <function> defined @Interface\SharedXML\SharedUIPanelTemplates.lua:860
+ RightBorder = HunterPetLocationsRightBorder {
+ }
+}
+(*temporary) = 1
+(*temporary) = nil
+(*temporary) = "attempt to call global 'GetNumberOfDetailTiles' (a nil value)"
+
+AddOns:
+  Swatter, v7.6.5736 (TasmanianThylacine)
+  Ace3, v
+  AucAdvanced, v7.6.5736 (TasmanianThylacine)
+  AucFilterBasic, v7.6.5736 (TasmanianThylacine)
+  AucFilterOutlier, v7.6.5736.5459(/embedded)
+  AucMatchUndercut, v7.6.5736.5585(/embedded)
+  AucStatHistogram, v7.6.5736 (TasmanianThylacine)
+  AucStatiLevel, v7.6.5736 (TasmanianThylacine)
+  AucStatPurchased, v7.6.5736 (TasmanianThylacine)
+  AucStatSales, v7.6.5736.5598(/embedded)
+  AucStatSimple, v7.6.5736 (TasmanianThylacine)
+  AucStatStdDev, v7.6.5736 (TasmanianThylacine)
+  AucStatWOWEcon, v7.6.5736.5613(/embedded)
+  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)
+  AucUtilAppraiser, v7.6.5736.5727(/embedded)
+  AucUtilAskPrice, v7.6.5736.5599(/embedded)
+  AucUtilAutoMagic, v7.6.5736.5732(/embedded)
+  AucUtilCompactUI, v7.6.5736.5715(/embedded)
+  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)
+  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)
+  AucUtilItemSuggest, v7.6.5736.5651(/embedded)
+  AucUtilPriceLevel, v7.6.5736.5633(/embedded)
+  AucUtilScanButton, v7.6.5736.5631(/embedded)
+  AucUtilScanFinish, v7.6.5736.5725(/embedded)
+  AucUtilScanProgress, v7.6.5736.4979(/embedded)
+  AucUtilScanStart, v7.6.5736.5725(/embedded)
+  AucUtilSearchUI, v7.6.5736.5731(/embedded)
+  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)
+  AucUtilVendMarkup, v7.6.5736.4828(/embedded)
+  Babylonian, v5.1.DEV.332(/embedded)
+  BeanCounter, v7.6.5736 (TasmanianThylacine)
+  Configator, v5.1.DEV.434(/embedded)
+  DBMCore, v8.0.0
+  DBMDefaultSkin, v
+  DBMStatusBarTimers, v
+  DebugLib, v5.1.DEV.337(/embedded)
+  DejaCharacterStats, v730rc108
+  HunterPets, v1.5.34
+  HunterPetsUI, v1
+  LibAbacus30, v
+  LibDropdown10, v1.0
+  LibExtraTip, v5.12.DEV.435(/embedded)
+  LibQTip10, v7.3.5.3
+  LibStub, v
+  NPCScan, v7.3.5.19
+  Recount, vv7.3.5c
+  SharedMedia, v3.0.7-188
+  SharedMediaAdditionalFonts, v1.0.24
+  SlideBar, v7.6.5736 (TasmanianThylacine)
+  Stubby, v7.6.5736 (TasmanianThylacine)
+  TipHelper, v5.12.DEV.405(/embedded)
+  WIM, v3.7.16
+  BlizRuntimeLib_enUS v8.0.1.80000 <none>
+  (ck=7e1)
+
