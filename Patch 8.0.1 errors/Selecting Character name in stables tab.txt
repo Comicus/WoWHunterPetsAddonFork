@@ -1,0 +1,86 @@
+Date: 2018-07-17 15:17:49
+ID: 12
+Error occured in: Global
+Count: 1
+Message: ...terface\AddOns\HunterPets_Owned\HunterPets_Owned.lua line 114:
+   attempt to index local 'button' (a nil value)
+Debug:
+   ...terface\AddOns\HunterPets_Owned\HunterPets_Owned.lua:114: HunterPetsOwned_Update()
+   ...terface\AddOns\HunterPets_Owned\HunterPets_Owned.lua:32: func()
+   ..\FrameXML\UIDropDownMenu.lua:935: UIDropDownMenuButton_OnClick()
+   [string "*:OnClick"]:1:
+      [string "*:OnClick"]:1
+Locals:
+numPets = 50
+numPetsScanned = 29
+totalSlots = 65
+(for index) = 56
+(for limit) = 65
+(for step) = 1
+i = 56
+button = nil
+(*temporary) = <function> defined @Interface\FrameXML\ItemButtonTemplate.lua:45
+(*temporary) = nil
+(*temporary) = ""
+(*temporary) = "attempt to index local 'button' (a nil value)"
+selectedRealm = "Tichondrius"
+selectedCharacter = "Imadegenerat"
+
+AddOns:
+  Swatter, v7.6.5736 (TasmanianThylacine)
+  Ace3, v
+  AucAdvanced, v7.6.5736 (TasmanianThylacine)
+  AucFilterBasic, v7.6.5736 (TasmanianThylacine)
+  AucFilterOutlier, v7.6.5736.5459(/embedded)
+  AucMatchUndercut, v7.6.5736.5585(/embedded)
+  AucStatHistogram, v7.6.5736 (TasmanianThylacine)
+  AucStatiLevel, v7.6.5736 (TasmanianThylacine)
+  AucStatPurchased, v7.6.5736 (TasmanianThylacine)
+  AucStatSales, v7.6.5736.5598(/embedded)
+  AucStatSimple, v7.6.5736 (TasmanianThylacine)
+  AucStatStdDev, v7.6.5736 (TasmanianThylacine)
+  AucStatWOWEcon, v7.6.5736.5613(/embedded)
+  AucUtilAHWindowControl, v7.6.5736.5575(/embedded)
+  AucUtilAppraiser, v7.6.5736.5727(/embedded)
+  AucUtilAskPrice, v7.6.5736.5599(/embedded)
+  AucUtilAutoMagic, v7.6.5736.5732(/embedded)
+  AucUtilCompactUI, v7.6.5736.5715(/embedded)
+  AucUtilEasyBuyout, v7.6.5736.5725(/embedded)
+  AucUtilFixAH, v7.6.5736 (TasmanianThylacine)
+  AucUtilItemSuggest, v7.6.5736.5651(/embedded)
+  AucUtilPriceLevel, v7.6.5736.5633(/embedded)
+  AucUtilScanButton, v7.6.5736.5631(/embedded)
+  AucUtilScanFinish, v7.6.5736.5725(/embedded)
+  AucUtilScanProgress, v7.6.5736.4979(/embedded)
+  AucUtilScanStart, v7.6.5736.5725(/embedded)
+  AucUtilSearchUI, v7.6.5736.5731(/embedded)
+  AucUtilSimpleAuction, v7.6.5736.5705(/embedded)
+  AucUtilVendMarkup, v7.6.5736.4828(/embedded)
+  Babylonian, v5.1.DEV.332(/embedded)
+  BeanCounter, v7.6.5736 (TasmanianThylacine)
+  Configator, v5.1.DEV.434(/embedded)
+  DBMCore, v8.0.0
+  DBMDefaultSkin, v
+  DBMStatusBarTimers, v
+  DebugLib, v5.1.DEV.337(/embedded)
+  DejaCharacterStats, v730rc108
+  HunterPets, v1.5.34
+  HunterPetsOwned, v1.1
+  HunterPetsUI, v1
+  Informant, v7.6.5736 (TasmanianThylacine)
+  LibAbacus30, v
+  LibDropdown10, v1.0
+  LibExtraTip, v5.12.DEV.435(/embedded)
+  LibQTip10, v7.3.5.3
+  LibStub, v
+  NPCScan, v7.3.5.19
+  Recount, vv7.3.5c
+  SharedMedia, v3.0.7-188
+  SharedMediaAdditionalFonts, v1.0.24
+  SlideBar, v7.6.5736 (TasmanianThylacine)
+  Stubby, v7.6.5736 (TasmanianThylacine)
+  TipHelper, v5.12.DEV.405(/embedded)
+  WIM, v3.7.16
+  BlizRuntimeLib_enUS v8.0.1.80000 <none>
+  (ck=825)
+
