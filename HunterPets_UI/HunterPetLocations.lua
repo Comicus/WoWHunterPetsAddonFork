@@ -9,7 +9,7 @@ local function ZoneInfo(...)
 end
 
 local function findZoneID(zone)
-	for cID_new, cname in next, {GetMapContinents()} do
+	for cID_new, cname in next, {C_Map.GetBestMapForUnit("player")} do
 		if type(cname) == "string" then
 			local cID = cID_new / 2
 			for zID, zname in pairs(ZoneInfo(GetMapZones(cID))) do
