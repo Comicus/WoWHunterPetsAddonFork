@@ -149,6 +149,12 @@
 						<Anchor point="TOPLEFT" relativeTo="$parent" x="250" y="-295"/>
 					</Anchors>
 				</FontString>
+				<FontString name="StabledPetsString6" inherits="GameFontNormalSmall" text="Stabled Pets #6" justifyH="CENTER" justifyV="MIDDLE">
+					<Size x="220" y="20"/>
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent" x="15" y="-410"/>
+					</Anchors>
+				</FontString>
 				<FontString name="$parentStats" inherits="GameFontNormalSmall" text="Stats: " justifyH="LEFT" justifyV="MIDDLE">
 					<Size x="300" y="20"/>
 					<Anchors>
@@ -404,7 +410,7 @@
 					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet44" relativePoint="RIGHT" x="7" y="0"/>
 				</Anchors>
 			</Button>
-			
+			<!-- Should be the previous division -->
 			<Button name="HunterPetsOwnedStabledPet46" inherits="HunterPetsOwnedSlotTemplate" id="46">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="StabledPetsString5" relativePoint="BOTTOMLEFT" x="0" y="-5"/>
@@ -430,7 +436,7 @@
 					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet49" relativePoint="RIGHT" x="7" y="0"/>
 				</Anchors>
 			</Button>
-
+			
 			<Button name="HunterPetsOwnedStabledPet51" inherits="HunterPetsOwnedSlotTemplate" id="51">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="HunterPetsOwnedStabledPet46" relativePoint="BOTTOMLEFT" x="0" y="-5"/>
@@ -456,10 +462,68 @@
 					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet54" relativePoint="RIGHT" x="7" y="0"/>
 				</Anchors>
 			</Button>
+			<!-- The buttons below this will need to be edited and moved -->
+			<Button name="HunterPetsOwnedStabledPet56" inherits="HunterPetsOwnedSlotTemplate" id="56">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="StabledPetsString6" relativePoint="BOTTOMLEFT" x="0" y="-5"/>
+				</Anchors>
+			</Button>
+			
+			<Button name="HunterPetsOwnedStabledPet57" inherits="HunterPetsOwnedSlotTemplate" id="57">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet56" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet58" inherits="HunterPetsOwnedSlotTemplate" id="58">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet57" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet58" inherits="HunterPetsOwnedSlotTemplate" id="58">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet57" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet59" inherits="HunterPetsOwnedSlotTemplate" id="59">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet58" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet60" inherits="HunterPetsOwnedSlotTemplate" id="60">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet59" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet61" inherits="HunterPetsOwnedSlotTemplate" id="61">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet56" relativePoint="BOTTOMLEFT" x="0" y="-25"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet62" inherits="HunterPetsOwnedSlotTemplate" id="62">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet61" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet63" inherits="HunterPetsOwnedSlotTemplate" id="63">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet62" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet64" inherits="HunterPetsOwnedSlotTemplate" id="64">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet63" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet65" inherits="HunterPetsOwnedSlotTemplate" id="65">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet64" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			
 
 		</Frames>
 		<Scripts>
-		<!-- The below lines were causing errors when loading into the game> -->
+		<!-- The below lines were causing errors when loading into the game -->
 			<!-- <OnShow>
 				PlaySound("igCharacterInfoOpen");
 			</OnShow>
