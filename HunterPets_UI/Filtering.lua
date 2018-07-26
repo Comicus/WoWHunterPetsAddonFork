@@ -284,7 +284,7 @@ function HunterPetJournalFilterDropDown_Initialize(self, level)
 		info.hasArrow = true;
 		info.notCheckable = true;
 		
-		info.text = "Buffs";
+		info.text = "Buffs / Family";
 		info.value = 3;
 		UIDropDownMenu_AddButton(info, level)
 	
