@@ -1,4 +1,141 @@
-HunterPets.Buffs = { {Name = "Stats", PetTypes = {"Gorilla", "Worm", "Shale Spider"}}, {Name = "Spell Power", PetTypes = {"Serpent", "Water Strider"}},{Name = "Stamina", PetTypes = {"Rylak", "Goat", "Bear", "Slithid"}},{Name = "Heroism", PetTypes = {"Core Hound", "Nether Ray"}},{Name = "Battle Ress", PetTypes = {"Quilen", "Moth", "Crane"}},{Name = "Mastery", PetTypes = {"Cat", "Tallstrider", "Hydra"}},{Name = "Critical Strike", PetTypes = {"Wolf", "Quilen", "Waterstrider", "Shale Spider", "Raptor"}},{Name = "Versatility", PetTypes = {"Boar", "Ravager", "Stag", "Clefthoof", "Worm"}},{Name = "Multistrike", PetTypes = {"Dragonhawk", "Wind Serpent", "Fox"}},{Name = "Haste", PetTypes = {"Sporebat", "Wasp", "Serpent", "Hyena"}},{Name = "Mortal Wounds", PetTypes = {"Crocolisk", "Scorpion", "Carrion Bird", "Riverbeast", "Devilsaur"}},};
+HunterPets.Buffs = {
+    {
+        Name = "Stats", PetTypes = {
+            "Gorilla",
+            "Worm",
+            "Shale Spider"
+        }
+    },
+    {
+        Name = "Tenacity",
+        PetTypes = {
+            "Bear",
+            "Beetle",
+            "Crab",
+            "Crane",
+            "Direhorn",
+            "Dragonhawk",
+            "Quilen",
+            "Riverbeast",
+            "Spirit Beast",
+            "Oxen",
+            "Stag",
+            "Turtle",
+            "Worm"
+
+        }
+    },
+    {
+        Name = "Stamina",
+        PetTypes = {
+            "Rylak",
+            "Goat",
+            "Bear",
+            "Slithid"
+        }
+    },
+    {
+        Name = "Cunning",
+        PetTypes = {
+            "Basilisk",
+            "Bird of Prey",
+            "Boar",
+            "Dog",
+            "Fox",
+            "Goat",
+            "Hyena",
+            "Mechanical",
+            "Monkey",
+            "Moth",
+            "Raptor",
+            -- need to add rodents
+            "Serpent",
+            "Shale Spider",
+            "Sporebat",
+            "Silithid",
+            "Warp Stalker",
+            "Water Strider"
+        }
+    },
+    {
+        Name = "Battle Ress",
+        PetTypes = {
+            "Quilen",
+            "Moth",
+            "Crane"
+        }
+    },
+    {
+        Name = "Mastery",
+        PetTypes = {
+            "Cat",
+            "Tallstrider",
+            "Hydra"
+        }
+    },
+    {
+        Name = "Critical Strike",
+        PetTypes = {
+            "Wolf",
+            "Quilen",
+            "Waterstrider",
+            "Shale Spider",
+            "Raptor"
+        }
+    },
+    {
+        Name = "Versatility",
+        PetTypes = {
+            "Boar",
+            "Ravager",
+            "Stag",
+            "Clefthoof",
+            "Worm"
+        }
+    },
+    {
+        Name = "Multistrike",
+        PetTypes = {
+            "Dragonhawk",
+            "Wind Serpent",
+            "Fox"
+        }
+    },
+    {
+        Name = "Ferocity",
+        PetTypes = {
+            "Wasp",
+            "Hyena",
+            "Bat",
+            "Carrion Bird",
+            "Cat",
+            "Crocolisk",
+            "Gorilla",
+            "Wind Serpent",
+            "Tallstrider",
+            "Scorpion",
+            "Scalehide",
+            "Nether Ray",
+            "Ravager",
+            "Tallstrider",
+            "Spider",
+            "Chimaera",
+            "Clefthoof",
+            "Core Hound",
+            "Devilsaur"
+        }
+    },
+    {
+        Name = "Mortal Wounds",
+        PetTypes = {
+            "Crocolisk",
+            "Scorpion",
+            "Carrion Bird",
+            "Riverbeast",
+            "Devilsaur"
+        }
+    },
+};
 
 HunterPets.Types = {{Id = 130, Expac = 4, Name = "Basilisk", Exotic = false, Icon = "inv_pet_ basilisk", Spells = {17253, 159733, }},{Id = 24, Expac = nil, Name = "Bat", Exotic = false, Icon = "ability_hunter_pet_bat", Spells = {17253, }},{Id = 4, Expac = nil, Name = "Bear", Exotic = false, Icon = "ability_hunter_pet_bear", Spells = {16827, 94019, }},{Id = 53, Expac = 3, Name = "Beetle", Exotic = false, Icon = "inv_misc_ahnqirajtrinket_01", Spells = {17253, 90339, }},{Id = 26, Expac = nil, Name = "Bird of Prey", Exotic = false, Icon = "ability_hunter_pet_owl", Spells = {16827, 94022, }},{Id = 5, Expac = nil, Name = "Boar", Exotic = false, Icon = "ability_hunter_pet_boar", Spells = {17253, }},{Id = 7, Expac = nil, Name = "Carrion Bird", Exotic = false, Icon = "ability_hunter_pet_vulture", Spells = {17253, 24423, }},{Id = 2, Expac = nil, Name = "Cat", Exotic = false, Icon = "ability_hunter_pet_cat", Spells = {16827, 24450, }},{Id = 38, Expac = 2, Name = "Chimaera", Exotic = true, Icon = "ability_hunter_pet_chimera", Spells = {17253, 54644, 92380, }},{Id = 43, Expac = warlords, Name = "Clefthoof", Exotic = false, Icon = "inv_clefthoofdraenormount_blue", Spells = {49966, 160057, }},{Id = 45, Expac = 2, Name = "Core Hound", Exotic = true, Icon = "ability_hunter_pet_corehound", Spells = {17253, 90355, 159788, }},{Id = 8, Expac = nil, Name = "Crab", Exotic = false, Icon = "ability_hunter_pet_crab", Spells = {16827, 159926, }},{Id = 125, Expac = 4, Name = "Crane", Exotic = false, Icon = "inv_pet_crane", Spells = {49966, 159931, 126259, }},{Id = 6, Expac = nil, Name = "Crocolisk", Exotic = false, Icon = "ability_hunter_pet_crocolisk", Spells = {17253, 50433, }},{Id = 39, Expac = 2, Name = "Devilsaur", Exotic = true, Icon = "ability_hunter_pet_devilsaur", Spells = {17253, 159953, 54680, }},{Id = 138, Expac = warlords, Name = "Direhorn", Exotic = false, Icon = "inv_pet_direhorn", Spells = {17253, 137798, }},{Id = 52, Expac = 3, Name = "Dog", Exotic = false, Icon = "inv_pet_mastiff", Spells = {17253, }},{Id = 30, Expac = 1, Name = "Dragonhawk", Exotic = false, Icon = "ability_hunter_pet_dragonhawk", Spells = {17253, }},{Id = 50, Expac = 3, Name = "Fox", Exotic = false, Icon = "ability_hunter_aspectofthefox", Spells = {17253, 160011, 90347, }},{Id = 129, Expac = 4, Name = "Goat", Exotic = false, Icon = "no", Spells = {49966, }},{Id = 9, Expac = nil, Name = "Gorilla", Exotic = false, Icon = "ability_hunter_pet_gorilla", Spells = {49966, }},{Id = 68, Expac = warlords, Name = "Hydra", Exotic = false, Icon = "trade_archaeology_whitehydrafigurine", Spells = {17253, }},{Id = 25, Expac = nil, Name = "Hyena", Exotic = false, Icon = "ability_hunter_pet_hyena", Spells = {17253, }},{Id = 154, Expac = 4, Name = "Mechanical", Exotic = false, Icon = "ability_mount_mechastrider", Spells = {17253, }},{Id = 51, Expac = 3, Name = "Monkey", Exotic = false, Icon = "inv_pet_monkey", Spells = {49966, 160044, }},{Id = 37, Expac = 2, Name = "Moth", Exotic = false, Icon = "ability_hunter_pet_moth", Spells = {49966, 159956, }},{Id = 34, Expac = 1, Name = "Nether Ray", Exotic = false, Icon = "ability_hunter_pet_netherray", Spells = {17253, 160452, }},{Id = 157, Expac = 5, Name = "Oxen", Exotic = false, Icon = "ability_mount_yakmount", Spells = {49966, }},{Id = 127, Expac = 4, Name = "Porcupine", Exotic = false, Icon = "inv_pet_porcupine", Spells = {16827, 126364, }},{Id = 128, Expac = 4, Name = "Quilen", Exotic = true, Icon = "achievement_moguraid_01", Spells = {17253, 126393, 160049, }},{Id = 11, Expac = nil, Name = "Raptor", Exotic = false, Icon = "ability_hunter_pet_raptor", Spells = {16827, }},{Id = 31, Expac = 1, Name = "Ravager", Exotic = false, Icon = "ability_hunter_pet_ravager", Spells = {17253, }},{Id = 150, Expac = warlords, Name = "Riverbeast", Exotic = false, Icon = "inv_hippo_green", Spells = {17253, 160018, }},{Id = 149, Expac = warlords, Name = "Rylak", Exotic = false, Icon = "ability_mount_ironchimera", Spells = {17253, 160007, }},{Id = 156, Expac = 5, Name = "Scalehide", Exotic = false, Icon = "inv_mushanbeastmount", Spells = {49966, }},{Id = 20, Expac = nil, Name = "Scorpid", Exotic = false, Icon = "ability_hunter_pet_scorpid", Spells = {16827, 160060, }},{Id = 35, Expac = nil, Name = "Serpent", Exotic = false, Icon = "spell_nature_guardianward", Spells = {17253, }},{Id = 55, Expac = 3, Name = "Shale Spider", Exotic = true, Icon = "no", Spells = {17253, 160063, }},{Id = 41, Expac = 2, Name = "Silithid", Exotic = true, Icon = "ability_hunter_pet_silithid", Spells = {16827, 160065, }},{Id = 3, Expac = nil, Name = "Spider", Exotic = false, Icon = "ability_hunter_pet_spider", Spells = {17253, 160067, }},{Id = 46, Expac = 2, Name = "Spirit Beast", Exotic = true, Icon = "ability_druid_primalprecision", Spells = {16827, 90361, 90328, }},{Id = 33, Expac = 1, Name = "Sporebat", Exotic = false, Icon = "ability_hunter_pet_sporebat", Spells = {49966, }},{Id = 151, Expac = warlords, Name = "Stag", Exotic = false, Icon = "inv_talbukdraenor_white", Spells = {49966, }},{Id = 12, Expac = nil, Name = "Tallstrider", Exotic = false, Icon = "ability_hunter_pet_tallstrider", Spells = {16827, }},{Id = 21, Expac = nil, Name = "Turtle", Exotic = false, Icon = "ability_hunter_pet_turtle", Spells = {17253, 26064, }},{Id = 32, Expac = 1, Name = "Warp Stalker", Exotic = false, Icon = "ability_hunter_pet_warpstalker", Spells = {17253, 35346, }},{Id = 44, Expac = 2, Name = "Wasp", Exotic = false, Icon = "ability_hunter_pet_wasp", Spells = {49966, }},{Id = 126, Expac = 4, Name = "Water Strider", Exotic = true, Icon = "inv_pet_waterstrider", Spells = {17253, 126311, }},{Id = 27, Expac = nil, Name = "Wind Serpent", Exotic = false, Icon = "ability_hunter_pet_windserpent", Spells = {17253, }},{Id = 1, Expac = nil, Name = "Wolf", Exotic = false, Icon = "ability_hunter_pet_wolf", Spells = {17253, }},{Id = 42, Expac = 2, Name = "Worm", Exotic = true, Icon = "ability_hunter_pet_worm", Spells = {17253, 93433, }},};
 
