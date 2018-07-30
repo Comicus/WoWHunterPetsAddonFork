@@ -508,17 +508,17 @@ HunterPets.Types = {
         }
     },
     --Does this family even exist anymore, I dont see anything on wowhead
-    -- {
-    --     Id = 149,
-    --     Expac = warlords,
-    --     Name = "Rylak",
-    --     Exotic = false,
-    --     Icon = "ability_mount_ironchimera",
-    --     Spells = {
-    --         17253,
-    --         160007,
-    --     }
-    -- },
+    {
+        Id = 149,
+        Expac = warlords,
+        Name = "Rylak",
+        Exotic = false,
+        Icon = "ability_mount_ironchimera",
+        Spells = {
+            17253,
+            160007,
+        }
+    },
     {
         Id = 156,
         Expac = 5,
@@ -597,6 +597,7 @@ HunterPets.Types = {
             16827,
             90361,
             90328,
+            264265,
         }
     },
     {
@@ -607,6 +608,7 @@ HunterPets.Types = {
         Icon = "ability_hunter_pet_sporebat",
         Spells = {
             49966,
+            264056,
         }
     },
     {
@@ -617,6 +619,7 @@ HunterPets.Types = {
         Icon = "inv_talbukdraenor_white",
         Spells = {
             49966,
+            264266,
         }
     },
     {
@@ -627,6 +630,7 @@ HunterPets.Types = {
         Icon = "ability_hunter_pet_tallstrider",
         Spells = {
             16827,
+            50285,
         }
     },
     {
@@ -659,6 +663,7 @@ HunterPets.Types = {
         Icon = "ability_hunter_pet_wasp",
         Spells = {
             49966,
+            263858,
         }
     },
     {
@@ -670,6 +675,7 @@ HunterPets.Types = {
         Spells = {
             17253,
             126311,
+            264262,
         }
     },
     {
@@ -680,6 +686,7 @@ HunterPets.Types = {
         Icon = "ability_hunter_pet_windserpent",
         Spells = {
             17253,
+            264360,
         }
     },
     {
@@ -690,6 +697,7 @@ HunterPets.Types = {
         Icon = "ability_hunter_pet_wolf",
         Spells = {
             17253,
+            263840,
         }
     },
     {
@@ -701,6 +709,7 @@ HunterPets.Types = {
         Spells = {
             17253,
             93433,
+            263446,
         }
     },
 };
