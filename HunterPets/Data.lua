@@ -1,9 +1,13 @@
 HunterPets.Buffs = {
     {
-        Name = "Stats", PetTypes = {
-            "Gorilla",
-            "Worm",
-            "Shale Spider"
+        Name = "Defensive", PetTypes = {
+            "Boar",
+            "Mechanical",
+            "Shale Spider",
+            "Core Hound",
+            "ScaleHide",
+            "Beetle",
+            "Turtle"
         }
     },
     {
@@ -26,12 +30,15 @@ HunterPets.Buffs = {
         }
     },
     {
-        Name = "Stamina",
+        Name = "Dodge",
         PetTypes = {
-            "Rylak",
-            "Goat",
-            "Bear",
-            "Slithid"
+            "Fox",
+            "Cat",
+            "Monkey",
+            "Serpent",
+            "Wind Serpent",
+            "Dragonhawk"
+            
         }
     },
     {
@@ -58,47 +65,68 @@ HunterPets.Buffs = {
         }
     },
     {
-        Name = "Battle Ress",
+        Name = "Mortal Wounds",
         PetTypes = {
-            "Quilen",
-            "Moth",
-            "Crane"
-        }
-    },
-    {
-        Name = "Mastery",
-        PetTypes = {
-            "Cat",
-            "Tallstrider",
-            "Hydra"
-        }
-    },
-    {
-        Name = "Critical Strike",
-        PetTypes = {
-            "Wolf",
-            "Quilen",
-            "Waterstrider",
-            "Shale Spider",
-            "Raptor"
-        }
-    },
-    {
-        Name = "Versatility",
-        PetTypes = {
-            "Boar",
+            "Hyena",
+            "Raptor",
+            "Porcupine",
+            "Carrion Bird",
+            "Devilsaur",
             "Ravager",
-            "Stag",
-            "Clefthoof",
+            "Scorpid",
+            "Wasp",
+            "Direhorn",
+            "Hydra",
+            "Riverbeast"
+        }
+    },
+    -- {
+    --     Name = "Mastery",
+    --     PetTypes = {
+    --         "Cat",
+    --         "Tallstrider",
+    --         "Hydra"
+    --     }
+    -- },
+    {
+        Name = "Slow",
+        PetTypes = {
+            "Basilisk",
+            "Bird of Prey",
+            "Dog",
+            "Silithid",
+            "Warp Stalker",
+            "Chimaera",
+            "Crocolisk",
+            "Spider",
+            "Tallstrider",
+            "Wolf",
+            "Crab",
             "Worm"
         }
     },
     {
-        Name = "Multistrike",
+        Name = "Tranquilize & Dispel",
         PetTypes = {
-            "Dragonhawk",
-            "Wind Serpent",
-            "Fox"
+            "Moth",
+            "Sporebat",
+            "Water Strider",
+            "Bat",
+            "Nether Ray",
+            "Crane",
+            "Spirit Beast",
+            "Stag"
+        }
+    },
+    {
+        Name = "Triggered Defense Cooldown",
+        PetTypes = {
+            "Goat",
+            "Clefthoof",
+            "Gorilla",
+            "Bear",
+            "Oxen",
+            "Quilen"
         }
     },
     {
@@ -557,7 +585,7 @@ HunterPets.Types = {
         Expac = 3,
         Name = "Shale Spider",
         Exotic = true,
-        Icon = "no",
+        Icon = "inv_pet_-shalespider",
         Spells = {
             17253,
             160063,
