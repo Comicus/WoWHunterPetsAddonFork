@@ -23,3 +23,12 @@ https://wow.curseforge.com/projects/hunterpets-bugfix-fork
 
 Note to any curse users who found your way here
 I know  the patch drops on 7/17/2018 and I will be working to get this updated as soon as possible but there will likely be alot of work to be done.
+
+
+To do list:
+
+   1. Update the Pet families
+   2. Make Stabled pets pane be a toggle so you don't have to see it on login. 
+   3. Add the ability to close the window via the escape key.
+   4. Work on profile functionality as non hunters generally arent going to need to see stabled pets. 
+   5. Touch up the frames as the X button for the hunters collection has a weird hitbox and is not easily closed if you dont know where to look.
