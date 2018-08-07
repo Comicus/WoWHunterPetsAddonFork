@@ -106,8 +106,9 @@
 			</OnLoad>
 		</Scripts>
 	</Frame>
+
 	<Frame name="HunterPetsOwned" movable="true" parent="UIParent" enableMouse="true" hidden="true" inherits="ButtonFrameTemplate">
-		<Size x="480" y="435"/>
+		<Size x="470" y="535"/>
 		<Anchors>
 			<Anchor point="TOP" x="0" y="-200"/>
 		</Anchors>
@@ -496,7 +497,7 @@
 			</Button>
 			<Button name="HunterPetsOwnedStabledPet61" inherits="HunterPetsOwnedSlotTemplate" id="61">
 				<Anchors>
-					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet56" relativePoint="BOTTOMLEFT" x="0" y="-25"/>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet60" relativePoint="RIGHT" x="20" y="0"/>
 				</Anchors>
 			</Button>
 			<Button name="HunterPetsOwnedStabledPet62" inherits="HunterPetsOwnedSlotTemplate" id="62">
@@ -519,6 +520,31 @@
 					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet64" relativePoint="RIGHT" x="7" y="0"/>
 				</Anchors>
 			</Button>
+			<!-- <Button name="HunterPetsOwnedStabledPet61" inherits="HunterPetsOwnedSlotTemplate" id="61">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet56" relativePoint="BOTTOMLEFT" x="0" y="-25"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet62" inherits="HunterPetsOwnedSlotTemplate" id="62">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet61" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet63" inherits="HunterPetsOwnedSlotTemplate" id="63">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet62" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet64" inherits="HunterPetsOwnedSlotTemplate" id="64">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet63" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button>
+			<Button name="HunterPetsOwnedStabledPet65" inherits="HunterPetsOwnedSlotTemplate" id="65">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="HunterPetsOwnedStabledPet64" relativePoint="RIGHT" x="7" y="0"/>
+				</Anchors>
+			</Button> -->
 			
 
 		</Frames>
@@ -530,7 +556,8 @@
 			<OnHide>
 				PlaySound("igCharacterInfoClose");
 			</OnHide> -->
-			<OnLoad>self:RegisterForDrag("LeftButton"); HunterPetsOwned_OnLoad()</OnLoad>
+			<OnLoad> tinsert(UISpecialFrames, self:GetName()); self:RegisterForDrag("LeftButton"); HunterPetsOwned_OnLoad()
+			</OnLoad>
 			<OnDragStart>self:StartMoving();</OnDragStart>
 			<OnDragStop>self:StopMovingOrSizing();</OnDragStop>
 			<OnEvent function="HunterPetsOwned_OnEvent"/>
