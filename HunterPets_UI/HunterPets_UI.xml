@@ -112,7 +112,8 @@
 	
 	<Frame name="HunterPetJournal" parent="CollectionsJournal" setAllPoints="true" hidden="true">
 		<Frames>
-			<CheckButton parentKey="ActivateMap" inherits="SpellBookSkillLineTabTemplate" hidden="false">
+		<!-- Commenting this out for now-->
+			<!-- <CheckButton parentKey="ActivateMap" inherits="SpellBookSkillLineTabTemplate" hidden="false">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
 						<Offset>
@@ -136,12 +137,12 @@
 						GameTooltip:Hide();
 					</OnLeave>
 				</Scripts>
-			</CheckButton>
+			</CheckButton> -->
 
 			<Frame parentKey="LeftInset" useParentLevel="true" inherits="InsetFrameTemplate">
 				<Size x="260" y="496"/>
 				<Anchors>
-					<Anchor point="TOPLEFT" x="4" y="-60" />
+					<Anchor point="TOPLEFT" x="0" y="0" />
 					<Anchor point="BOTTOMLEFT" x="4" y="26" />
 				</Anchors>
 			</Frame>
