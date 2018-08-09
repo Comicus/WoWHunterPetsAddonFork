@@ -12,6 +12,9 @@ function HunterPetsOwned_OnLoad()
 	-- Im going to try to comment it out again and remove other instances of it to see what results I produce
 	-- Disabling the function disables the ability to see the stables.
 	HunterPetsOwned:Show()
+	selectedCharacter = UnitName("player");
+	selectedRealm = GetRealmName();
+	HunterPetsOwnedCharacterListButtonText:SetText(selectedCharacter)
 end
 
 function HunterPetsOwned_Toggle()
