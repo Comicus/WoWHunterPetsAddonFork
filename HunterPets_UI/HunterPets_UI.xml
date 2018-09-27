@@ -140,9 +140,10 @@
 			</CheckButton> -->
 
 			<Frame parentKey="LeftInset" useParentLevel="true" inherits="InsetFrameTemplate">
+				
 				<Size x="260" y="496"/>
 				<Anchors>
-					<Anchor point="TOPLEFT" x="0" y="0" />
+					<Anchor point="TOPLEFT" x="4" y="-60" />
 					<Anchor point="BOTTOMLEFT" x="4" y="26" />
 				</Anchors>
 			</Frame>
@@ -395,6 +396,7 @@
 				<Frames>
 					<Slider name="$parentScrollBar" inherits="HybridScrollBarTrimTemplate" parentKey="scrollBar">
 						<Anchors>
+							
 							<Anchor point="TOPLEFT" relativePoint="TOPRIGHT" x="4" y="20"/>
 							<Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT" x="4" y="11"/>
 						</Anchors>

@@ -78,15 +78,15 @@ function HunterPetJournal_IsPetOfExpac(index, expac)
 end
 
 function HunterPetJournal_IsPetOfVanilla(index)
-	local isOfVanilla = true
-	for i=1, #HunterPets.Zones do
-		for subZones in pairs(HunterPets.Zones[i]) do
-			if	(HunterPets.Pets.Location[index] == HunterPets.Zones[i][subZones]) then
-				isOfVanilla = false
-			end
-		end
-	end
-	return isOfVanilla
+	-- local isOfVanilla = true
+	-- -- for i=1, #HunterPets.Zones do
+	-- -- 	-- for subZones in pairs(HunterPets.Zones[i]) do
+	-- -- 	-- 	-- if	(HunterPets.Pets.Location[index] == HunterPets.Zones[i][subZones]) then
+	-- -- 	-- 	-- 	isOfVanilla = false
+	-- -- 	-- 	-- end
+	-- -- 	-- end
+	-- -- end
+	-- return isOfVanilla
 end
 
 function HunterPetJournal_IsPetExotic(index)
