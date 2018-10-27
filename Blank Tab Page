@@ -1,0 +1,127 @@
+Whenever I try to open Tab it is blank and I get this error : 
+
+14x ...ns\HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0-1.lua:104: attempt to index local 'tab' (a nil value)
+...ns\HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0-1.lua:104: in function `Update'
+...ns\HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0-1.lua:25: in function <...ns\HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0.lua:24>
+[C]: in function `PanelTemplates_SetTab'
+Blizzard_Collections\Blizzard_Collections-1.0.lua:5: in function `CollectionsJournal_SetTab'
+FrameXML\UIParent.lua:958: in function `SetCollectionsJournalShown'
+FrameXML\UIParent.lua:944: in function <FrameXML\UIParent.lua:940>
+[C]: in function `ToggleCollectionsJournal'
+HunterPets_UI\HunterPets_UI-1.lua:13: in function `HunterPetJournal_Toggle'
+HunterPets\Broker.lua:88: in function <HunterPets\Broker.lua:86>
+Titan\LDBToTitan.lua:273: in function <Titan\LDBToTitan.lua:271>
+
+Locals:
+self = <table> {
+ covers = <table> {
+ }
+ tabs = <table> {
+ }
+ Select = <function> defined @HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0.lua:58
+ Update = <function> defined @HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0.lua:69
+ Add = <function> defined @HunterPets\Libs\SecureTabs-2.0\SecureTabs-2.0.lua:35
+}
+panel = CollectionsJournal {
+ 0 = <userdata>
+ TitleText = CollectionsJournalTitleText {
+ }
+ portrait = CollectionsJournalPortrait {
+ }
+ LeftBorder = CollectionsJournalLeftBorder {
+ }
+ HeirloomTabHelpBox = <unnamed> {
+ }
+ WardrobeTabHelpBox = <unnamed> {
+ }
+ TopRightCorner = CollectionsJournalTopRightCorner {
+ }
+ TopLeftCorner = CollectionsJournalTopLeftCorner {
+ }
+ Bg = CollectionsJournalBg {
+ }
+ TopBorder = CollectionsJournalTopBorder {
+ }
+ TopTileStreaks = CollectionsJournalTopTileStreaks {
+ }
+ TitleBg = CollectionsJournalTitleBg {
+ }
+ BottomBorder = CollectionsJournalBottomBorder {
+ }
+ OnLoad = <function> defined @SharedXML\SharedUIPanelTemplates.lua:860
+ BotRightCorner = CollectionsJournalBotRightCorner {
+ }
+ numTabs = 5
+ CloseButton = CollectionsJournalCloseButton {
+ }
+ BotLeftCorner = CollectionsJournalBotLeftCorner {
+ }
+ PortraitFrame = CollectionsJournalPortraitFrame {
+ }
+ selectedTab = 0
+ RightBorder = CollectionsJournalRightBorder {
+ }
+}
+selection = nil
+secureTabs = <table> {
+ 1 = CollectionsJournalSecureTab0 {
+ }
+}
+cover = CollectionsJournalCoverTab {
+ 0 = <userdata>
+}
+tab = nil
+(*temporary) = "CollectionsJournalTab0"
+(*temporary) = nil
+(*temporary) = "0"
+(*temporary) = 1
+(*temporary) = 2
+(*temporary) = nil
+(*temporary) = HunterPetJournal {
+ 0 = <userdata>
+ LeftInset = <unnamed> {
+ }
+ searchBox = HunterPetJournalSearchBox {
+ }
+ cachedPets = <table> {
+ }
+ filterTypes = <table> {
+ }
+ filterRares = true
+ filterZoneOnly = false
+ hunterPetOptionsMenu = HunterPetJournalHunterPetOptionsMenu {
+ }
+ RightInset = <unnamed> {
+ }
+ ListScrollFrame = HunterPetJournalListScrollFrame {
+ }
+ PetDisplay = <unnamed> {
+ }
+ cachedLooks = <table> {
+ }
+ zoneId = 7637
+ filterElites = true
+ TamablePets = <unnamed> {
+ }
+ filterByOwnedPets = true
+ filterByVanilla = true
+ ShowOnlyInZone = <unnamed> {
+ }
+ filterByExpac = <table> {
+ }
+ filterByBuff = 0
+ filterNormal = true
+ StabledPetsButton = HunterPetJournalStabledPetsButton {
+ }
+ filterExotic = true
+ filterByOwnedLooks = true
+ TamableLooks = <unnamed> {
+ }
+ currentZone = "Suramar"
+}
+(*temporary) = false
+(*temporary) = <userdata>
+(*temporary) = CollectionsJournalSecureTab0Right {
+ 0 = <userdata>
+}
+(*temporary) = "attempt to index local 'tab' (a nil value)"
